@@ -1,0 +1,14 @@
+[package]
+name = "lib-genetic-algorithm"
+version = "0.4.0"
+authors = [ "Дмитрий <dv7@bk.ru>" ]
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+rand_chacha = "0.3"
+#nalgebra = { version = "0.32", features = ["rand-no-std"] }
+
+[dev-dependencies]
+approx = "0.5"
+maplit = "1.0"
