@@ -1,6 +1,8 @@
+//Реализованные модули алгоритмов кроссовера
 mod uniform;
-
+//Экспорт алгоритмов
 pub use self::uniform::*;
+
 use crate::*;
 
 pub trait CrossoverMethod {

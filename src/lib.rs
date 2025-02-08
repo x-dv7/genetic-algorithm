@@ -1,15 +1,15 @@
+mod individual;
 mod chromosome;
 mod crossover;
-mod individual;
 mod mutation;
 mod selection;
 mod statistics;
 mod genetic_algorithm;
 mod genetic_flex_algorithm;
 
+pub use self::individual::*;
 pub use self::chromosome::*;
 pub use self::crossover::*;
-pub use self::individual::*;
 pub use self::mutation::*;
 pub use self::selection::*;
 pub use self::statistics::*;

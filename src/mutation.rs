@@ -1,8 +1,10 @@
+//Реализованные модули алгоритмов мутации
 mod gaussian;
 mod flex1;
-
+//Экспорт алгоритмов
 pub use self::gaussian::*;
 pub use self::flex1::*;
+
 use crate::*;
 
 pub trait MutationMethod {//мутация весом одной хромосомы без изменения структуры
